@@ -3,6 +3,9 @@ All from the programmin class of 2018-19
 
 Buisness email: janne.l.wald@gmail.com
 
-### *Project Name*
-## *Finish date*
+### Project Name
+
+__Finish date__
+
+
  
