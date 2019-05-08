@@ -13,3 +13,14 @@ This project demonstrates the basic methods of creating a frame by using size();
 ![Shapes](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/Shapes.png)
 
 Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term1/Shapes
+
+## Loops
+
+__Completed 9/25/2018__
+*Processing IDE was used
+
+This project deminstrates the simple use of a "for" loop
+
+![Loops](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/Loops.png)
+
+Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term1/Loops
