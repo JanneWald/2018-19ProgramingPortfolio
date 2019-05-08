@@ -36,3 +36,16 @@ This project applies the use of detecting bounds and then changing position vari
 ![dos](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/dos.png)
 
 Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term1/Collision%20Detection
+
+## Random Circles
+
+__Completed 9/17/2018__
+*Processing IDE was used
+
+This project uses the random() function inside of methods by aplying it to circle width while using mouseX mouseY variables.
+
+![circone](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/circone.png)
+![circdos](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/circdos.png)
+
+Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term1/Collision%20Detection
+
