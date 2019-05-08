@@ -33,5 +33,6 @@ __Completed 9/30/2018__
 This project applies the use of detecting bounds and then changing position variables acording to the scenario.
 
 ![ColDet](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/ColDet.png)
+![dos](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/dos.png)
 
 Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term1/Collision%20Detection
