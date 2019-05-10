@@ -12,7 +12,7 @@ This project demonstrates the basic methods of creating a frame by using size();
 
 Shapes.png
  
-<img src="Shapes.ong", width=800
+<img src="Shapes.png", width=800>
 
 ![Shapes](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/Shapes.png)
 
