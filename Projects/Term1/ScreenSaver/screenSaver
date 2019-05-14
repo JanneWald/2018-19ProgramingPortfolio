@@ -1,0 +1,32 @@
+// Janne Wald 
+//10/24/18 
+
+Line l1;
+Line[] lines = new Line[10];
+
+
+void setup() {
+  //size(displayWidth, displayHeight);
+  size(400, 400);
+  background(255);
+  frameRate(120);
+  l1 = new Line(int(random(width)), int(random(height)));
+  for (int i=0; i<lines.length; i++) {
+    lines[i] = new Line(int(random(width)), int(random(height)));
+  }
+}
+
+void draw() {
+  if (frameCount>500) {
+    background(255);
+  } else {
+
+    l1.display();
+    for (int i=0; i<lines.length; i++) {
+      lines[i].display();
+    }
+  }
+}
+  //void mouseClicked() {
+  //  saveFrame("line-########.png");
+  //}
