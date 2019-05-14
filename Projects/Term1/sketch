@@ -1,0 +1,94 @@
+int x, y;
+
+void setup() {
+  size(400, 400);
+  frameRate(10);
+  // Set start coords
+  x = width/2;
+  y = height/2;
+}
+
+void draw() {
+  fill(255);
+  //drawName();
+  //noLoop();
+}
+
+// Algorithm for your first name
+void drawName() {
+  moveRight(4);
+  moveLeft(2);
+  moveDown(4);
+  moveLeft(2);
+  moveUp(1);
+  moveDown(1);
+  moveRight(5);
+  moveUp(2);
+  moveRight(2);
+  moveDown(2);
+  moveLeft(2);
+  moveRight(3);
+  moveUp(2);
+  moveRight(2);
+  moveDown(2);
+  moveRight(1);
+  moveUp(2);
+  moveRight(2);
+  moveDown(2);
+  moveRight(1);
+  moveUp(2);
+  moveRight(2);
+  moveDown(1);
+  moveLeft(2);
+  moveDown(1);
+  moveRight(2);
+}
+
+// Method to draw right line
+void moveRight(int rep) {
+  for (int i=0; i<rep*10; i++) {
+    point(x+i, y);
+  }
+  x=x+(10*rep);
+}
+// Down line
+void moveDown(int rep) {
+  for (int i=0; i<rep*10; i++) {
+    point(x, y+i);
+  }
+  y=y+(10*rep);
+}
+// Left line
+void moveLeft(int rep) {
+  for (int i=0; i<rep*10; i++) {
+    point(x-i, y);
+  }
+  x=x-(10*rep);
+}
+// Up line
+void moveUp(int rep) {
+  for (int i=0; i<rep*10; i++) {
+    point(x, y-i);
+  }
+  y=y-(10*rep);
+}
+
+
+//void mouseClicked() {
+//  saveFrame("line-########.png");
+//}
+
+void keyPressed() {
+  if (key == CODED) {
+    if (keyCode == RIGHT) {
+      moveRight(1);
+    } else if (keyCode == DOWN) {
+      moveDown(1);
+    } else if (keyCode == LEFT) {
+      moveLeft(1);
+    } else if (keyCode == UP) {
+      moveUp(1);
+    }
+  }
+}
+//method to draw down line
