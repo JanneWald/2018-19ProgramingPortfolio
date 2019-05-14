@@ -98,3 +98,39 @@ This project uses other loops to create random box and line shadings to create s
 Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term1/loops3
 
 
+## Etch-a-sketch
+
+__Completed 12/21/2018__
+*Processing IDE was used
+
+This project takes in inputs of your arrow keys and then uses them for draw commands.
+
+![sketch](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/sketch.png)
+![sketch2](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/sketch2.png)
+
+Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term1/sketch
+
+
+## Screen Saver
+
+__Completed 10/24/2018__
+*Processing IDE was used
+
+This project uses several instances of for loops and percentage values to generate random lines similar to the "tubes screen saver for windows"
+
+![save1](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/save1.png)
+![save2](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/save2.png)
+
+Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/tree/master/Projects/Term1/ScreenSaver
+
+
+## Temperature converter
+
+__Completed 10/24/2018__
+*Processing IDE was used
+
+This project is a simple interactable application that runs mouseX through a method to get the other temperature conversion from Farenheit and Celcius.
+
+![temp](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/temp.png)
+
+Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term1/tempConvert
