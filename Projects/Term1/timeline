@@ -1,0 +1,53 @@
+// Computer History Timeline
+// By Janne Wald
+// Sept. 7 2018
+
+void setup() {
+  size(900, 400);  
+  background(155);
+}
+
+void draw() {
+  background(155);
+  textSize(45);
+  textAlign(CENTER);
+  fill(255);
+  text("Historic Computer Systems", width/2, 45);
+  textSize(20);
+  text("By Janne Wald", width/2, 70);
+  strokeWeight(5);
+  stroke(255, 0, 0);
+  line(100, 210, 800, 210);
+  strokeWeight(3);
+  stroke(255);
+  line(100, 210, 800, 210);
+
+  // add 8 historic events
+  // use \n as a line break
+  histEvent("ENIAC - 1946(US)", "First programable computer", 75, 180, true);
+  histEvent("Manchester Baby - 1947(UK)", "Testbed for first random \n access computer memory", 175, 250, false);
+  histEvent("Manchester Mark I - 1948(UK)", "Earliest stored-program computers", 275, 180, true);
+  histEvent("EDSAC - 1949(UK)", "Second stored-program \n computer", 375, 250, false);
+  histEvent("Ferranti - 1951(UK)", "First commercial general-purpose electronic computer", 475, 180, true);
+  histEvent("LEO I - 1951(US)", "Named after Lyons \n Electronics office", 575, 250, false);
+  histEvent("UNIVAC I - 1951", "First US comercial computer", 675, 180, true);
+  histEvent("IBM 650 - 1953", "World first mass\n produced computer", 775, 250, false);
+}
+
+void histEvent(String name, String descr, int x, int y, boolean top) {
+  textAlign(LEFT);
+  textSize(12);
+  text(name, x, y);
+
+  //determine top or bottom events
+  if (top) {
+    line(x, y, x+30, y+30);
+  } else {
+    line(x, y-10, x+30, y-40);
+  }
+  //find location of mouse for displaying description
+  if (mouseX > x-50 && mouseX < x+50 && mouseY > y-15 && mouseY < y+30) {
+    textSize(12);
+    text(descr, x, y+20);
+  }
+}
