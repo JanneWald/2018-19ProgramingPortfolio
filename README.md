@@ -11,7 +11,7 @@ __Completed 8/31/2018__
 This project demonstrates the basic methods of creating a frame by using size(); and drawing methods like rect(); ellipse(); triangle(); quad(); and also the descriptive methods like fill();
 
 
-![Shapes](src="images/Shapes.png")
+![Shapes](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/Shapes.png)
 
 Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term1/Shapes
 
@@ -49,4 +49,52 @@ This project uses the random() function inside of methods by aplying it to circl
 ![circdos](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/circdos.png)
 
 Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term1/Collision%20Detection
+
+## Timeline
+
+__Completed 9/7/2018__
+*Processing IDE was used
+
+This project utilized if statements in a changing background to make words appear according to mouse position
+
+![timeline1](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/timeline1.png)
+![timeline2](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/timeline2.png)
+
+Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term1/timeline
+
+
+## Speed conversion
+
+__Completed 12/10/2018__
+*Processing IDE was used
+
+This project creates methods that allows an interactive calculator for miles to kilometers and vice versa.
+
+![convert](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/convert.png)
+
+Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term1/convert
+
+## Make a Face
+
+__Completed 9/17/2018__
+*Processing IDE was used
+
+This project uses controlled elements of random to generaet random faces and saves them in your folders.
+
+![face](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/face.png)
+
+Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term1/face
+
+
+## More random loops
+
+__Completed 9/17/2018__
+*Processing IDE was used
+
+This project uses other loops to create random box and line shadings to create some odd image.
+
+![face](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/loops3.png)
+
+Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term1/loops3
+
 
