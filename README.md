@@ -126,7 +126,7 @@ Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/tree/master
 
 ## Temperature converter
 
-__Completed 10/24/2018__
+__Completed 8/24/2018__
 *Processing IDE was used
 
 This project is a simple interactable application that runs mouseX through a method to get the other temperature conversion from Farenheit and Celcius.
@@ -134,3 +134,17 @@ This project is a simple interactable application that runs mouseX through a met
 ![temp](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/temp.png)
 
 Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term1/tempConvert
+
+
+## Calculator
+
+__Completed 12/3/2018__
+*Processing IDE was used
+
+This project is a  interactable application that looks and function like a standard calculator
+
+![calc](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/calc.png)
+
+Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term1/calc
+
+
