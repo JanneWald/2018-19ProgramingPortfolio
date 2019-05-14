@@ -1,0 +1,56 @@
+// Janne Wald
+// 12/10/18
+// Miles To Kilometers
+
+void setup () {
+  size(480, 560);
+}
+
+void draw () {
+  background(255);
+  fill(0);
+  drawRefrence();
+  for (int i=0; i<height; i+=10) {
+    line(225, i, 255, i);
+    fill(0);
+    textSize(10);
+    text(i, 250, i);
+  }
+  textAlign(LEFT);
+  textSize(15);
+  //text("Kilometer: " + mouseY + " = Miles:" + kmToMi(mouseY), 10, 65);
+  fill(0);
+  rect(235, 0, 10, mouseY);
+  textAlign(CENTER);
+  text("Mi",100,335);
+  text(mouseY,100,355);
+  text("Km",380,335);
+  text(kmToMi(mouseY), 380, 355);
+}
+void drawRefrence() {
+  // stop sign
+  fill(0,0,255);
+  rect(0,0,500,300);
+  fill(0,255,100);
+  rect(0,300,500,300);
+  fill(255,230,0);
+  quad(40, 340, 100, 400, 160, 340, 100, 280);
+  line(100, 400, 100, 560);
+  quad(320, 340, 380, 400, 440, 340, 380, 280);
+  line(380, 400, 380, 560);
+
+  // roads
+  rect(200, 0, 80, 560);
+  line(width/2, 0, width/2, height);
+}
+
+//km = mi*0.621371
+
+float kmToMi(float km) {
+  km = km/1.621371;
+  return km;
+}
+float miToKm(float mi) {
+  mi = mi*1.621371;
+  return mi;
+}
