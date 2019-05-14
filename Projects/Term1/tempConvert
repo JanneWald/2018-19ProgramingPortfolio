@@ -1,0 +1,33 @@
+void setup () {
+  size(300, 200);
+}
+
+void draw () {
+  background(255);
+  fill(0);
+  
+  for(int i=0; i<width; i+=10){
+   line(i,30,i,40); 
+   
+   textSize(7);
+   text(i,i,20);
+  }
+  
+  textSize(10);
+  text("Cel: " + mouseX + " = Far:" + celToFar(mouseX),10,65);
+  rect(0,35,mouseX,10);
+  //println(celToFar(10));
+  //println(farToCell(10));
+  //noLoop();
+}
+
+//cel = (far-32)*(5/9)
+
+float celToFar(float cel) {
+  cel = cel*9/5+32;
+  return cel;
+}
+float farToCell(float far) {
+  far = (far-32)/1.9;
+  return far;
+}
