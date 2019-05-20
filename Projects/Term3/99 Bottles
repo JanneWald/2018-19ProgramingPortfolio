@@ -1,0 +1,26 @@
+//Janne Wald
+//01/23/19
+//Computer Programming
+
+class Ninetynin
+{
+  public static void main(String args[])
+    {
+    String s = "s";
+    for (int coke=99; coke>-1;)
+      {
+      System.out.print(coke + " bottle" + s + " of coke on the wall, ");
+      System.out.println(coke + " bottle" + s + " of beer, ");
+      if (coke==0)
+        {
+        System.out.print("Go to the store, buy some more, ");
+        System.out.println("hopefully not all your moneys worth of bottles of coke on the wall.\n");
+        System.exit(0);
+        }
+      else
+        System.out.print("Take one down, pass it around, ");
+      s = (--coke == 1)?"":"s";
+      System.out.println(coke + " bottle" + s + " of coke on the wall.\n");
+      }
+    }
+}
