@@ -11,10 +11,10 @@ __Completed 8/31/2018__
 This project demonstrates the basic methods of creating a frame by using size(); and drawing methods like rect(); ellipse(); triangle(); quad(); and also the descriptive methods like fill();
 
 
-
+[I'm an inline-style link](https://www.google.com)
 ![Shapes](images/Shapes.png)
 
-Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term1/Shapes
+[Source code used](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term1/Shapes)
 
 local Source Code: Projects/Term1/Shapes
 
