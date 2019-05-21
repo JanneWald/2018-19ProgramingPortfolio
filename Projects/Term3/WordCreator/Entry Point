@@ -1,0 +1,98 @@
+// Scott Coller, Devin Killinger Janne Wald
+// 03 - 06 - 2019
+
+import java.io.FileWriter;
+import java.util.Scanner;
+
+public class EntryPoint {
+	static Pre p1 = new Pre();
+	static Root rw1 = new Root();
+	static SuffixCreator s1 = new SuffixCreator();	
+	public static void main(String args[]) {
+		Scanner sc1 = new Scanner(System.in);
+		Scanner suC1 = new Scanner(System.in);
+		Scanner suC2 = new Scanner(System.in);
+    Scanner sPlay = new Scanner(System.in);
+		boolean play = true;
+
+		while (play == true) {
+			System.out.println("Hello, and welcome to the Random Word Generator!");
+			System.out.println("Well, Random (press \"r\"), unless you don't want it to be (press \"c\" for custom)");
+
+			char userChoice = sc1.next().charAt(0);
+			String pre = "";
+			String preDef = "";
+			String root = "";
+			String rootDef = "";
+			String suff = "";
+			String getDef = "";			
+			if (userChoice == 'r') {
+				System.out.println(p1.getPre() + " " + rw1.getRoot() + " " + s1.getSuffix());
+				System.out.println(p1.getDef() + " " + rw1.getDef() + " " + s1.getDef());
+				// random
+				pre = p1.getPre();
+				preDef = p1.getDef();
+				root = rw1.getRoot();
+				rootDef = rw1.getDef();
+				suff = s1.getSuffix();
+				getDef = s1.getDef();				
+				System.out.println("Would you like to save your file[y/n]?");
+				char wantToSaveReply = sc1.next().charAt(0);
+				if (wantToSaveReply == 'y') {
+					try {
+						FileWriter myFile = new FileWriter("c:/Desktop/YourRandomWord.txt");
+						myFile.write(pre + root + suff + "\n" + rootDef + " " + preDef + " " + getDef);
+						myFile.close();
+						System.out.println("saved to c:/Desktop/YourRandomWord.txt");
+					} catch (java.io.IOException ignore) {
+						System.out.println("error saving file");
+					}
+				}
+			} else while (userChoice == 'c') {
+				// custom choice
+				System.out.println("Please type your word");
+				String uCpre = suC1.nextLine();
+				System.out.println("Please type the definition for your word");
+				String uCdef = suC2.nextLine();
+
+				System.out.println("Would you like to save your file[y/n]?")
+				char wantToSaveReply = sc1.next().charAt(0);
+				if (wantToSaveReply == 'y') {
+					try {
+						FileWriter myFile = new FileWriter("c:/Desktop/YourCustomWord.txt");
+						myFile.write(uCpre + "\n" + uCdef);
+						myFile.close();
+						System.out.println("saved to c:/Desktop/YourCustomWord.txt");
+					} catch (java.io.IOException ignore) {
+						System.out.println("error saving file");
+					}
+        }
+
+			} else {
+				// invalid reply
+				System.out.println("Invalid input");
+			}
+
+      // Continue?
+        System.out.println("Press \"y\" to continue playing, press \"n\" to stop");
+        char continuePlaying = sPlay.next().charAt(1);
+        if (continuePlaying == 'y') {
+          play = true;
+        } else if (continuePlaying == 'n') {
+          play = false;
+        } else {
+          // invalid reply
+				System.out.println("Invalid input");
+        }
+
+		}
+
+		System.out.println("Thank you for using our Word Generator");
+
+		// Close Scanner
+		sc1.close();
+		suC1.close();
+		suC2.close();
+		sPlay.close();
+	}
+}
