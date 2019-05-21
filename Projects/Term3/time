@@ -1,0 +1,51 @@
+package time;
+
+import java.util.Scanner;
+import java.util.Calendar;
+
+
+public class time {
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		System.out.println("Birth Year");
+		int year= keyboard.nextInt();
+		System.out.println("Birth Month");
+		int month= keyboard.nextInt();
+		System.out.println("Birth Day");
+		int day= keyboard.nextInt();
+		System.out.println("Birth Hour(24 hour time)");
+		int hour= keyboard.nextInt();
+		System.out.println("Birth Minute");
+		int minute= keyboard.nextInt();
+		System.out.println("Birth Second");
+		int second= keyboard.nextInt();
+		Calendar now = Calendar.getInstance();
+		int yearAge = (now.get(Calendar.YEAR)) - year;
+		int monthAge = (now.get(Calendar.MONTH)) - month;
+		int dayAge = (now.get(Calendar.DATE)) - day;
+		int hourAge = (now.get(Calendar.HOUR)) - hour;
+		int minuteAge = (now.get(Calendar.MINUTE)) - minute;
+		int secondAge = (now.get(Calendar.SECOND)) - second;
+		if(monthAge < 0) {
+			yearAge --;
+			monthAge += 12;
+		} if(dayAge < 0) {
+			monthAge --;
+			dayAge += 30;
+		} if(hourAge < 0) {
+			dayAge --;
+			hourAge += 24;		
+		} if(minuteAge < 0) {
+			hourAge --;
+			minuteAge += 60;
+		} if(secondAge < 0) {
+			minuteAge --;
+			secondAge += 60;	
+		}
+		System.out.println(yearAge + " years "+ monthAge + " months " + dayAge + 
+		" days " + hourAge + " hours " + minuteAge + " minutes " + secondAge 
+		+ " seconds old. ");
+	}
+}
+
+
