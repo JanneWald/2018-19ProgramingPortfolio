@@ -1,0 +1,27 @@
+//Gabe Rosa
+//Haren Keren
+
+
+public class Root {
+		int rNum = 0 ;
+		
+		String[] Root = {"ambi", "aqua", "aud", "bene", "cent", "circum", "contra", "dict", "duc", "fac", "form", "fort", "fract", "ject", "jud", "mal", "mater", "mit", "mort", "multi", "pater", "port", "rupt"};
+		String[] def = {"both", "water", "hear", "good", "one hundred", "around", "against", "to say", "to lead", "to do", "stength", "to break", "to throw", "to judge", "bad", "mother", "to send", "death", "many", "father", "to carry", "to break"};
+		// Constructor
+		 public Root() {
+			 rNum = (int)(Math.random()*21);
+			 
+		 }
+
+		   public String getRoot( ) {
+			   String val = Root[rNum];
+		     	return val;
+		   }
+		   public String getDef( ) {
+			   String val = def[rNum];
+		     	return val;
+		   }
+
+	}
+
+	
