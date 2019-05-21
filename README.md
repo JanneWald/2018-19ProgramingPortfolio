@@ -147,13 +147,24 @@ This project is a  interactable application that looks and function like a stand
 
 Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term1/calc
 
-## Calculator
+## 99 Bottles of ...
 
 __Completed 1/23/2019__
 *Processing IDE was used
 
-This project uses our recently assigned java language, to manipulate "for" loops into  displaying the well know 99 bottles song.
+This project uses our recently assigned java language, to manipulate "for" loops into  displaying the well know 99 bottles song in the console.
 
 ![69](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/69.png)
 
 Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term3/99%20Bottles
+
+## Guessing Game
+
+__Completed 2/01/2019__
+*Processing IDE was used
+
+This project uses our recently assigned java language to create if statements that give hints to the player if they are getting closer or colder to the correct number.
+
+![guess](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/guess.png)
+
+Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term3/guessingGame
