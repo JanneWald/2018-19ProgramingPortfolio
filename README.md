@@ -1,5 +1,5 @@
 # Welcome to Janne Wald's Programming Portfolio
-All from the programmin class of 2018-19
+All from the programming class of 2018-19
 
 Buisness email: janne.l.wald@gmail.com
 
@@ -147,4 +147,13 @@ This project is a  interactable application that looks and function like a stand
 
 Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term1/calc
 
+## Calculator
 
+__Completed 1/23/2019__
+*Processing IDE was used
+
+This project uses our recently assigned java language, to manipulate "for" loops into  displaying the well know 99 bottles song.
+
+![69](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/69.png)
+
+Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term3/99%20Bottles
