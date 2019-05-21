@@ -12,11 +12,11 @@ This project demonstrates the basic methods of creating a frame by using size();
 
 
 
-dbg ![Shapes](images/Shapes.png)
-
-![Shapes](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/Shapes.png)
+![Shapes](images/Shapes.png)
 
 Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term1/Shapes
+
+local Source Code: Projects/Term1/Shapes
 
 ## Loops
 
@@ -25,7 +25,7 @@ __Completed 9/25/2018__
 
 This project deminstrates the simple use of a "for" loop
 
-![Loops](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/Loops.png)
+![Loops](images/Loops.png)
 
 Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term1/Loops
 
@@ -48,8 +48,8 @@ __Completed 9/17/2018__
 
 This project uses the random() function inside of methods by aplying it to circle width while using mouseX mouseY variables.
 
-![circone](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/circone.png)
-![circdos](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/circdos.png)
+![circone](images/circone.png)
+![circdos](images/circdos.png)
 
 Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term1/Collision%20Detection
 
