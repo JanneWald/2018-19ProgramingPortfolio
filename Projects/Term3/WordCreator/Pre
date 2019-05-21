@@ -1,0 +1,27 @@
+//Haru (Jiyoon) Yoo
+//03-08-2019
+
+package prefix;
+
+public class Pre {
+	int rNum = 0 ;
+	
+	String[] pre = {"anti", "de", "dis", "en", "em", "fore", "in", "im", "il", "ir", "inter", "mid", "mis", "non", "over", "pre", "re", "semi", "sub", "super", "trans", "un", "under"};
+	String[] def = {"against", "opposite of", "not", "cause to", "before", "in", "not", "between", "middle", "wrongly", "not", "over", "before", "again", "half", "under", "above", "across", "not", "under"};
+	
+	// Constructor
+	 public Pre() {
+		 rNum = (int)(Math.random()*24);
+		 
+	 }
+
+	   public String getPre( ) {
+		   String val = pre[rNum];
+	     	return val;
+	   }
+	   public String getDef( ) {
+		   String val = def[rNum];
+	     	return val;
+	   }
+
+}
