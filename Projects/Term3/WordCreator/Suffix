@@ -1,0 +1,23 @@
+// Alex Forsberg
+// 3/6/19
+public class SuffixCreator {
+		int rNum = 0 ;
+		
+		String[] Suffix = {"acy", "al", "dom", "ism", "ance", "er", "ist", "ity", "ment", "ness", "ship", "tion", "ate", "ify", "able", "ful", "esque", "ous", "ious", "ish", "ive", "less", "y"};
+		String[] def = {"state", "act", "place", "belief", "quality of", "one who", "one who", "quality of", " condition of", "state of being", "position held", "state of being", "become", "make", "capable of being", "notable for", "reminiscent of", "characterized by", "having the quality of", "having the nature of", "without", "characterized by"};
+		// Constructor
+		 public SuffixCreator() {
+			 rNum = (int)(Math.random()*21);
+			 
+		 }
+
+		   public String getSuffix( ) {
+			   String val = Suffix[rNum];
+		     	return val;
+		   }
+		   public String getDef( ) {
+			   String val = def[rNum];
+		     	return val;
+		   }
+
+	}
