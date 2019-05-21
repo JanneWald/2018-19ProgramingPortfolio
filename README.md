@@ -168,3 +168,14 @@ This project uses our recently assigned java language to create if statements th
 ![guess](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/guess.PNG)
 
 Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term3/guessingGame
+
+## Pig latin translator
+
+__Completed 2/01/2019__
+*Processing IDE was used
+
+This project uses newly assigned java language to utilize the character scanner function within eclipse. This allows you to insert any word that will be translated into the pig latin equivalent. To translate a word in pig latin, one must take the first letter of the word, bring it to the back of the word, and add -ay at the end. I had some help with the capitalization code using https://introcs.cs.princeton.edu/java/31datatype/Capitalize.java.html.
+
+![igpay](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/igpay.PNG)
+
+Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term3/igpay
