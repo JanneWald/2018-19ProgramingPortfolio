@@ -171,7 +171,7 @@ Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master
 
 ## Pig latin translator
 
-__Completed 2/01/2019__
+__Completed 2/06/2019__
 *Processing IDE was used
 
 This project uses newly assigned java language to utilize the character scanner function within eclipse. This allows you to insert any word that will be translated into the pig latin equivalent. To translate a word in pig latin, one must take the first letter of the word, bring it to the back of the word, and add -ay at the end. I had some help with the capitalization code using https://introcs.cs.princeton.edu/java/31datatype/Capitalize.java.html.
@@ -179,3 +179,14 @@ This project uses newly assigned java language to utilize the character scanner 
 ![igpay](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/igpay.PNG)
 
 Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term3/igpay
+
+## Age calculator
+
+__Completed 2/01/2019__
+*Processing IDE was used
+
+This project uses our assigned java language to create an age calculater using the get.date functions within eclipse and compare your inputs to the current date. 
+
+![time](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/time.PNG)
+
+Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term3/time
