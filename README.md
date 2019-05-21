@@ -192,11 +192,13 @@ This project uses our assigned java language to create an age calculater using t
 
 ## Group Project: Word creator 
 
-__Completed 2/18/2019__
+__Completed 3/15/2019__
 *Java Eclipse IDE was used
 
-This project uses our assigned java language to create an age calculater using the get.date functions within eclipse and compare your inputs to the current date. 
+This was a group project with, Haru Yoo who wrote the prefix class, Gabe Rosa & Haren Keren who wrote the root word class, Alex Forsberg who wrote the suffix class, and Scott Coller, Devin Killinger and myself who wrote the entrypoint to the enitre project.
 
-![time](images/time.PNG)
+This application has four parts, a prefix class that stores prefixes and their deffinitions, a root class that stores root words and their definitions, a suffix class that stores suffixes and their definitions. Finally you have the entrypoint, it allows you to create a random word using randomized latin parts of words, or you can create a word and add a definition to it, after this has run, you will be given the option to save that word into a .txt file called YourCustomWord.txt on your desktop.
+![time](images/words.PNG)
 
-[Source code used](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term3/time)
+[Source code used](https://github.com/JanneWald/2018-19ProgramingPortfolio/tree/master/Projects/Term3/WordCreator)
+*The credit to all the authors of their respective coding has been added to their source code. 
