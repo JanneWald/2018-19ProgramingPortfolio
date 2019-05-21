@@ -165,6 +165,6 @@ __Completed 2/01/2019__
 
 This project uses our recently assigned java language to create if statements that give hints to the player if they are getting closer or colder to the correct number.
 
-![guess](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/guess.png)
+![guess](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/guess.PNG)
 
 Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term3/guessingGame
