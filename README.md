@@ -150,7 +150,7 @@ Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master
 ## 99 Bottles of ...
 
 __Completed 1/23/2019__
-*Processing IDE was used
+Java Eclipse IDE was used
 
 This project uses our recently assigned java language, to manipulate "for" loops into  displaying the well know 99 bottles song in the console.
 
@@ -161,7 +161,7 @@ Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master
 ## Guessing Game
 
 __Completed 2/01/2019__
-*Processing IDE was used
+*Java Eclipse IDE was used
 
 This project uses our recently assigned java language to create if statements that give hints to the player if they are getting closer or colder to the correct number.
 
@@ -172,7 +172,7 @@ Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master
 ## Pig latin translator
 
 __Completed 2/06/2019__
-*Processing IDE was used
+*Java Eclipse IDE was used
 
 This project uses newly assigned java language to utilize the character scanner function within eclipse. This allows you to insert any word that will be translated into the pig latin equivalent. To translate a word in pig latin, one must take the first letter of the word, bring it to the back of the word, and add -ay at the end. I had some help with the capitalization code using https://introcs.cs.princeton.edu/java/31datatype/Capitalize.java.html.
 
@@ -182,8 +182,19 @@ Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master
 
 ## Age calculator
 
-__Completed 2/01/2019__
-*Processing IDE was used
+__Completed 2/18/2019__
+*Java Eclipse  was used
+
+This project uses our assigned java language to create an age calculater using the get.date functions within eclipse and compare your inputs to the current date. 
+
+![time](https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/images/time.PNG)
+
+Source Code: https://github.com/JanneWald/2018-19ProgramingPortfolio/blob/master/Projects/Term3/time
+
+## Group Project: Word creator 
+
+__Completed 2/18/2019__
+*Java Eclipse IDE was used
 
 This project uses our assigned java language to create an age calculater using the get.date functions within eclipse and compare your inputs to the current date. 
 
