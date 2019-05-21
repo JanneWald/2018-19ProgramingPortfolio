@@ -1,0 +1,49 @@
+//Guessing Game
+//Janne Wald
+//Computer Programming B4
+
+
+import java.util.Scanner;
+import java.util.Random;
+public class GuessingGame
+
+{   
+public static void main (String [] args)
+   {
+
+
+  //Method Variables
+  Random randomNumber = new Random();
+  int computerValue = randomNumber.nextInt(100);
+  int numberOfTries = 0;
+  int rightNumber = 0;
+  int guess = 0;
+  //Scanner
+  Scanner kbd = new Scanner(System.in);
+
+
+  //While loop, not for loop right?
+   while (rightNumber ==0)
+     {
+        System.out.println("Welcome to the guessing game! Guess a number between 1 and 100: ");
+        guess = kbd.nextInt();
+        numberOfTries++;
+
+           if (guess < 1 || guess > 100){
+              System.out.println("Please use an number between 1 and 100");
+           }
+
+           else if (guess == computerValue){
+              rightNumber++;
+              System.out.println("Congratulations you won! Your numbers of tries was: " + numberOfTries + " and the number was: " + computerValue);
+
+           }
+           else if (guess < computerValue){
+              System.out.println("Unforfortunately that is too low, try again: ");
+           }
+           else if (guess > computerValue){
+              System.out.println("That number is too high, try again:");
+       }
+     }
+   }
+}
